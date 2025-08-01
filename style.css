@@ -59,3 +59,19 @@
   fill: #FBBF24;
   color: #FBBF24;
 }
+/* Projects Section Styling */
+.project-nav-btn {
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.project-nav-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Custom font for "Our Projects" title */
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
+
+#projects h2 {
+    font-family: 'Kalam', 'Comic Sans MS', cursive !important;
+}
